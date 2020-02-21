@@ -38,7 +38,7 @@
 		AA5FEB7C21355CCC00F9BD4B /* labels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = labels.txt; sourceTree = "<group>"; };
 		AAAB096D218981FA0015A1F2 /* CVPixelBufferExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVPixelBufferExtension.swift; sourceTree = "<group>"; };
 		AABFCBB1213FE0B100C0A67B /* ModelDataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelDataHandler.swift; sourceTree = "<group>"; };
-		AAE79E56213521DA00E7AC1F /* Classify CustomizedModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Classify CustomizedModel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE79E56213521DA00E7AC1F /* OMG ModelCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OMG ModelCheck.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE79E59213521DA00E7AC1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAE79E5E213521DA00E7AC1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAE79E60213521DB00E7AC1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -127,7 +127,7 @@
 		AAE79E57213521DA00E7AC1F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AAE79E56213521DA00E7AC1F /* Classify CustomizedModel.app */,
+				AAE79E56213521DA00E7AC1F /* OMG ModelCheck.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -204,7 +204,7 @@
 			);
 			name = ImageClassification;
 			productName = ImageClassification;
-			productReference = AAE79E56213521DA00E7AC1F /* Classify CustomizedModel.app */;
+			productReference = AAE79E56213521DA00E7AC1F /* OMG ModelCheck.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -461,7 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 2SNFS3P999;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -474,9 +474,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.mopl;
-				PRODUCT_NAME = "Classify CustomizedModel";
-				PROVISIONING_PROFILE_SPECIFIER = ZcoEnggDept_CommonApp_Dev_Profile;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mopl.testapp;
+				PRODUCT_NAME = "OMG ModelCheck";
+				PROVISIONING_PROFILE_SPECIFIER = ZcoEnggDept_TestApp_Adhoc_Profile;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -490,7 +490,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 2SNFS3P999;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -503,9 +503,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.mopl;
-				PRODUCT_NAME = "Classify CustomizedModel";
-				PROVISIONING_PROFILE_SPECIFIER = ZcoEnggDept_CommonApp_Dev_Profile;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mopl.testapp;
+				PRODUCT_NAME = "OMG ModelCheck";
+				PROVISIONING_PROFILE_SPECIFIER = ZcoEnggDept_TestApp_Adhoc_Profile;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
